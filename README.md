@@ -44,6 +44,14 @@ It is possible to list all of the versions of `qt.py` available on your platform
 conda search qt.py --channel conda-forge
 ```
 
+Note on updating this recipe
+============================
+
+1. Fork this.
+2. Bump the version number in `recipe/meta.yaml`
+3. Get the SHA256 for the new .tar.gz file at PyPi (macOS example: `openssl sha -sha256 ~/Downloads/Qt.py-1.0.0.tar.gz`)
+4. Make PR
+
 
 About conda-forge
 =================

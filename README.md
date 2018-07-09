@@ -14,14 +14,15 @@ Summary: Minimal Python 2 & 3 shim around all Qt bindings - PySide, PySide2, PyQ
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/qt.py-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/qt.py-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/qt.py-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/qt.py-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/qt.py-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/qt-py-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/qt.py-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/qt.py-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/qt.py/badges/version.svg)](https://anaconda.org/conda-forge/qt.py)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/qt.py/badges/downloads.svg)](https://anaconda.org/conda-forge/qt.py)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-qt.py-green.svg)](https://anaconda.org/conda-forge/qt.py) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/qt.py.svg)](https://anaconda.org/conda-forge/qt.py) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/qt.py.svg)](https://anaconda.org/conda-forge/qt.py) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/qt.py.svg)](https://anaconda.org/conda-forge/qt.py) |
 
 Installing qt.py
 ================
@@ -102,14 +103,3 @@ In order to produce a uniquely identifiable distribution:
  * If the version of a package **is** being increased, please remember to return
    the [``build/number``](http://conda.pydata.org/docs/building/meta-yaml.html#build-number-and-string)
    back to 0.
-
-
-Note by Qt.py maintainers on updating this recipe
-=================================================
-
-1. Fork this.
-2. Bump the version number in `recipe/meta.yaml`
-3. Get the SHA256 for the new .tar.gz file at PyPi (macOS example: `openssl sha -sha256 ~/Downloads/Qt.py-1.0.0.tar.gz`)
-4. Make PR
-
-For issues during CI, see: https://conda-forge.org/docs/webservice.html

@@ -1,6 +1,6 @@
 {% set name = "Qt.py" %}
-{% set version = "1.2.1" %}
-{% set sha256 = "9ba2ddf00140a64c7f2ba3f440bbaef627cf5dd0e34eedebe91fd3e0b1a3874d" %}
+{% set version = "1.2.2" %}
+{% set sha256 = "b593a31ba049c49d67f1d0c7b13bd384f1bc0809de0bf01f4f7b51d73618c623" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:

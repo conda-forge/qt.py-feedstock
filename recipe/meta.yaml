@@ -1,6 +1,6 @@
 {% set name = "Qt.py" %}
-{% set version = "1.2.4" %}
-{% set sha256 = "6555c79fef7e1fa702b487f3ed2252ca014d9388d093e088af17bdc3c5c8f56e" %}
+{% set version = "1.2.5" %}
+{% set sha256 = "9471a8a32512bada89ce56e63c41406b26234804a1803ac88de767ad89b240c5" %}
 
 package:
   name: {{ name|lower }}
@@ -34,8 +34,8 @@ about:
   home: http://github.com/mottosso/Qt.py
   license: MIT
   license_family: MIT
-  license_file: '{{ environ["RECIPE_DIR"] }}/LICENSE'
-  summary: 'Minimal Python 2 & 3 shim around all Qt bindings - PySide, PySide2, PyQt4 and PyQt5.'
+  license_file: {{ environ["RECIPE_DIR"] }}/LICENSE
+  summary: Minimal Python 2 & 3 shim around all Qt bindings - PySide, PySide2, PyQt4 and PyQt5.
 
 extra:
   recipe-maintainers:

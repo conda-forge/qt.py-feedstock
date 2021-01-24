@@ -5,11 +5,9 @@ Home: http://github.com/mottosso/Qt.py
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/qt.py-feedstock/blob/master/LICENSE.txt)
 
 Summary: Minimal Python 2 & 3 shim around all Qt bindings - PySide, PySide2, PyQt4 and PyQt5.
-
-
 
 Current build status
 ====================

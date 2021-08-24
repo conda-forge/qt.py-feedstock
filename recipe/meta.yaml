@@ -1,6 +1,6 @@
 {% set name = "Qt.py" %}
-{% set version = "1.3.5" %}
-{% set sha256 = "b3972423af4cf62c835f6171071abd6479a4ea218f6448e2aa82eb3b7b0bd42e" %}
+{% set version = "1.3.6" %}
+{% set sha256 = "0d78656a2f814602eee304521c7bf5da0cec414818b3833712c77524294c404a" %}
 
 package:
   name: {{ name|lower }}

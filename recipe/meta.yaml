@@ -1,6 +1,6 @@
 {% set name = "Qt.py" %}
-{% set version = "1.4.1" %}
-{% set sha256 = "c04ac2cedb5aeb710630f5443c032819aab4f6638aaa0105a9aacde66a337cf4" %}
+{% set version = "1.4.2" %}
+{% set sha256 = "1b4897c86357aca04bd1836d6321ce9bd34d18c699ed6aef9f378abbdfd05135" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/qt_py-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
